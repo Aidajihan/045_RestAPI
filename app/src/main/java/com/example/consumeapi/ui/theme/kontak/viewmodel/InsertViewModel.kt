@@ -42,7 +42,7 @@ fun  InsertUiEvent.toKontak(): Kontak = Kontak(
     id = id,
     nama = nama,
     email = email,
-    telpon = nohp,
+    nohp = nohp,
 )
 
 fun Kontak.toUiStateKontak(): InsertUiState = InsertUiState(
